@@ -1,0 +1,34 @@
+{
+  "name": "dsh-plugin-cli",
+  "version": "0.1.0",
+  "description": "Scaffolding and validation for DeepSeek Harness plugins (command: dsh-cli): create a loadable package, check the mistakes that fail silently.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "dsh-cli": "bin/dsh-cli.js",
+    "dsh-plugin-cli": "bin/dsh-cli.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "scaffold",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pscly/dsh-plugin-cli.git"
+  },
+  "homepage": "https://github.com/pscly/dsh-plugin-cli",
+  "publishConfig": {
+    "access": "public"
+  }
+}
